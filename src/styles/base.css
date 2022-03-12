@@ -1,15 +1,15 @@
 :root {
-  --color1: #ffffff;
+  --color1: #b9f1ff;
   --color2: #7e00a8;
   --color3: #7e00a8;
-  --color4: #e6fa33;
-  --color5: #e6fa33;
+  --color4: #4189F8;
+  --color5: #4189F8;
   --color6: #b9ffff;
 
   --fg-dark: #ffffff;  
 
-  --font1: 'Hammersmith One', sans-serif;
-  --font2: 'Special Elite', cursive;
+  --font1: 'Old Standard TT', sans-serif;
+  --font2: 'Old Standard TT', cursive;
 }
 
 *,
@@ -33,7 +33,7 @@ h5,
 h6 {
   color: var(--color5);
   font-family: var(--font2);
-  margin-bottom: 0.5em;
+  margin-bottom: 0.2em;
 }
 
 #header {
@@ -108,15 +108,16 @@ h6 {
   font-size: 20px;
   line-height: 24px;
 
-  color: #b4290d;
+  color: #4679e6;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
 .main {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 2em;
+  max-width: 360px;
+  margin: 5 auto;
+  padding: 1em;
+  min-height: 75vh;
 }
 
 .foot {
