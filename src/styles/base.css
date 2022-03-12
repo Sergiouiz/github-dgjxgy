@@ -1,12 +1,12 @@
 :root {
-  --color1: #7D00A9;
-  --color2: #81d0b6;
-  --color3: #a6c4a0;
-  --color4: #7bccb98b;
-  --color5: #635634;
-  --color6: #f2ae76;
+  --color1: #ffffff;
+  --color2: #7e00a8;
+  --color3: #7e00a8;
+  --color4: #e6fa33;
+  --color5: #e6fa33;
+  --color6: #b9ffff;
 
-  --fg-dark: #ffffff;
+  --fg-dark: #ffffff;  
 
   --font1: 'Hammersmith One', sans-serif;
   --font2: 'Special Elite', cursive;
