@@ -1,17 +1,13 @@
 ---
-import BaseLayouts from '../layouts/BaseLayouts.astro';
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
 ---
-
-<BaseLayouts>
-
-    <div class="main">
-      <h1>Blog</h1>
-
-      <div class="blog-post">
-        <div class="title">Fauna del entorno</div>
-        <div class="content">
-          <p>En este  blog voy a hablar sobre la fauna que tenemos a nuestro alrededor.</p>
-        </div>
-      </div>
+<BaseLayout title="Homepage">
+  <h1>Blog</h1>
+  <div class="blog-post">
+    <div class="title">Fauna del entorno</div>
+    <div class="content">
+      <p></p>
     </div>
-<BaseLayouts/>
+  </div>
+</BaseLayout> 

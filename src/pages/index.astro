@@ -1,21 +1,8 @@
 ---
-// Component imports and setup JavaScript go here!
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Welcome to Astro</title>
-		<style>
-			/* scoped CSS styles go here: */
-			/* h1 { ... } */
-		</style>
-	</head>
-
-	<body>
-		<h1>Fauna del entorno</h1>
-		Por un mundo mejor
-	</body>
-</html>
- 124  src/style/base
+<BaseLayout title="Homepage">
+  <h1>Página principal</h1>
+  <p>Párrafo de la página principal</p>
+</BaseLayout>
