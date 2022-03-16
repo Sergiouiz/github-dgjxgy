@@ -1,7 +1,7 @@
 :root {
   --color1: #b9f1ff;
-  --color2: #7e00a8;
-  --color3: #7e00a8;
+  --color2: #7D00A8;
+  --color3: #7D00A8;
   --color4: #4189F8;
   --color5: #4189F8;
   --color6: #b9ffff;
@@ -144,6 +144,8 @@ h6 {
 
 img.logo {
   filter: drop-shadow(0px 0px 2px var(--color4));
+  max-width: 150px;
+  justify-self: ce;
 }
 
 img.logo:hover {
